@@ -70,7 +70,6 @@ body{
     right: 0;
     background: var(--second);
     transition: width .2s ease;
-    -webkit-transition: width .2s ease;
 }
 
 #link:hover:after {
@@ -155,8 +154,6 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -278,19 +275,18 @@ body{
     border-radius: 50%;
     position: relative;
     overflow: hidden;
-   
     z-index: 1;
 }
 
 .social ul li a .icon {
     position: relative;
-    color: #262626;
+    color: rgb(38, 38, 38);
     transition: .5s;
     z-index: 3;
 }
 
 .social ul li a:hover .icon {
-    color: #fff;
+    color: rgb(255,255 ,255);
     transform: rotateY(360deg);
 }
 
